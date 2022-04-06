@@ -1,7 +1,7 @@
 function palindrome(x){
     let arry= x.split('');
 let l=arry.length;
-for(let i=0; i<l/2; i++){
+for(let i=0; i<=l/2; i++){
     if (arry[i] == arry[l-1 -i]){
         continue;
    
