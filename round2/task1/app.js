@@ -14,6 +14,5 @@ for(let i=0; i<=l/2; i++){
 return true;
 }
 
-console.log(palindrome('ABCDCBA'));
-console.log(palindrome('ghufran'));
-console.log(palindrome('bab'));
+document.getElementById('Result').innerHTML= JSON.stringify(palindrome('ABCDCBA'));
+
